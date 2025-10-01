@@ -21,8 +21,7 @@ const blogPosts = [
     title: "GFRP vs Steel: The Ultimate Comparison for Modern Construction",
     excerpt:
       "Discover why GFRP rebars are revolutionizing the construction industry with superior corrosion resistance and durability compared to traditional steel reinforcement.",
-    author: "Dr. Rajesh Kumar",
-    date: "2024-01-15",
+    date: "2025-9-20",
     category: "Technical",
     readTime: "8 min read",
     image: "/images/Blog/gfrp-vs-steel-advantages.png",
@@ -34,7 +33,7 @@ const blogPosts = [
     excerpt:
       "Explore how GFRP rebars are transforming marine infrastructure projects with their exceptional resistance to saltwater corrosion.",
     author: "Priya Sharma",
-    date: "2024-01-10",
+    date: "2025-9-20",
     category: "Applications",
     readTime: "6 min read",
     image: "/images/Blog/construction.png",
@@ -45,8 +44,7 @@ const blogPosts = [
     title: "Sustainable Construction with GFRP Technology",
     excerpt:
       "Learn how GFRP rebars contribute to sustainable construction practices and reduce environmental impact.",
-    author: "Amit Patel",
-    date: "2024-01-05",
+    date: "2025-9-20",
     category: "Sustainability",
     readTime: "7 min read",
     image: "/banner/banner3.jpeg",
@@ -57,8 +55,7 @@ const blogPosts = [
     title: "Installation Best Practices for GFRP Rebars",
     excerpt:
       "A comprehensive guide to proper installation techniques for GFRP rebars to ensure optimal performance.",
-    author: "Dr. Rajesh Kumar",
-    date: "2023-12-28",
+    date: "2025-9-20",
     category: "Technical",
     readTime: "10 min read",
     image: "/banner/banner4.jpeg",
@@ -67,10 +64,8 @@ const blogPosts = [
   {
     id: 5,
     title: "Cost Analysis: GFRP vs Traditional Reinforcement",
-    excerpt:
-      "Detailed cost-benefit analysis showing long-term savings with GFRP reinforcement solutions.",
-    author: "Priya Sharma",
-    date: "2023-12-20",
+    excerpt: "Detailed cost-benefit analysis showing long-term savings with GFRP reinforcement solutions.",
+    date: "2025-9-20",
     category: "Economics",
     readTime: "9 min read",
     image: "/banner/banaer0.png",
@@ -78,34 +73,8 @@ const blogPosts = [
   },
 ];
 
-const authors = [
-  {
-    name: "Dr. Rajesh Kumar",
-    role: "Chief Technical Officer",
-    bio: "Leading expert in composite materials with 15+ years of experience in GFRP technology.",
-    image: "/images/authors/rajesh-kumar.jpg",
-    linkedin: "https://linkedin.com/in/rajesh-kumar-gfrp",
-    email: "rajesh@vegnar.com",
-  },
-  {
-    name: "Priya Sharma",
-    role: "Senior Materials Engineer",
-    bio: "Specialist in marine applications and corrosion-resistant materials.",
-    image: "/images/authors/priya-sharma.jpg",
-    linkedin: "https://linkedin.com/in/priya-sharma-materials",
-    email: "priya@vegnar.com",
-  },
-  {
-    name: "Amit Patel",
-    role: "Sustainability Director",
-    bio: "Expert in sustainable construction practices and environmental impact assessment.",
-    image: "/images/authors/amit-patel.jpg",
-    linkedin: "https://linkedin.com/in/amit-patel-sustainability",
-    email: "amit@vegnar.com",
-  },
-];
 
-const POSTS_PER_PAGE = 4;
+const POSTS_PER_PAGE = 3;
 
 export default function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -142,10 +111,10 @@ export default function Blog() {
       {/* Blog Content */}
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+          <div className="w-full">
             {/* Main Content */}
-            <div className="lg:col-span-3">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="w-full">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                 {currentPosts.map((post) => (
                   <Card
                     key={post.id}
@@ -173,10 +142,6 @@ export default function Blog() {
                             month: "long",
                             day: "numeric",
                           })}
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <UserIcon className="h-4 w-4" />
-                          {post.author}
                         </div>
                       </div>
 
@@ -260,93 +225,6 @@ export default function Blog() {
               )}
             </div>
 
-            {/* Sidebar */}
-            <div className="lg:col-span-1 space-y-6 h-fit">
-              {/* First Author Card */}
-              <Card className="bg-card shadow-card border">
-                <CardContent className="p-6">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center mx-auto">
-                      <UserIcon className="h-10 w-10 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-lg text-foreground">
-                        Tushar
-                      </h4>
-                      <p className="text-sm text-muted-foreground mb-2">
-                        Chief Executive Officer
-                      </p>
-                      <p className="text-xs text-muted-foreground leading-relaxed">
-                        Leading expert in GFRP technology with 15+ years of
-                        experience in composite materials research and
-                        development. PhD in Materials Engineering from IIT
-                        Mumbai.
-                      </p>
-                    </div>
-                    <div className="flex justify-center space-x-4">
-                      <a
-                        href="https://www.linkedin.com/in/hiranitushar/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors"
-                      >
-                        <FaLinkedin className="h-6 w-6" />
-                      </a>
-                      <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=tushar@vegnar.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-red-500 hover:text-red-600 transition-colors"
-                      >
-                        <HiMail className="h-6 w-6" />
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Second Author Card */}
-              <Card className="bg-card shadow-card border">
-                <CardContent className="p-6">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-full flex items-center justify-center mx-auto">
-                      <UserIcon className="h-10 w-10 text-secondary" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-lg text-foreground">
-                        Aashish
-                      </h4>
-                      <p className="text-sm text-muted-foreground mb-2">
-                        Chief Technology Officer
-                      </p>
-                      <p className="text-xs text-muted-foreground leading-relaxed">
-                        Specialist in GFRP structural applications and design
-                        optimization. M.Tech in Structural Engineering with
-                        expertise in composite reinforcement systems.
-                      </p>
-                    </div>
-                    <div className="flex justify-center space-x-4">
-                      <a
-                        href="https://www.linkedin.com/in/ashiishchauhan/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors"
-                      >
-                        <FaLinkedin className="h-6 w-6" />
-                      </a>
-                      <a
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=chauhanashish360@vegnar.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-red-500 hover:text-red-600 transition-colors"
-                      >
-                        <HiMail className="h-6 w-6" />
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
           </div>
         </div>
       </section>

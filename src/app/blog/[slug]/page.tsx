@@ -287,9 +287,9 @@ export default function BlogPostDetail() {
             </Button>
           </Link>
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div className="w-full">
             {/* Main Content */}
-            <div className="lg:col-span-3">
+            <div className="w-full max-w-4xl mx-auto">
               {/* Featured Image */}
               {post.featuredImage ? (
                 <img
@@ -380,82 +380,6 @@ export default function BlogPostDetail() {
               </Card>
             </div>
 
-            {/* Sidebar */}
-            <div className="lg:col-span-1 space-y-6">
-              {/* First Author Card */}
-              <Card className="bg-card shadow-card border">
-                <CardContent className="p-6">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-primary/10 rounded-full flex items-center justify-center mx-auto">
-                      <UserIcon className="h-10 w-10 text-primary" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-lg text-foreground">Tushar</h4>
-                      <p className="text-sm text-muted-foreground mb-2">Chief Executive Officer</p>
-                      <p className="text-xs text-muted-foreground leading-relaxed">
-                        Leading expert in GFRP technology with 15+ years of experience in composite materials research and development. PhD in Materials Engineering from IIT Mumbai.
-                      </p>
-                    </div>
-                    <div className="flex justify-center space-x-4">
-                      <a 
-                        href="https://www.linkedin.com/in/hiranitushar/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors"
-                      >
-                        <FaLinkedin className="h-6 w-6" />
-                      </a>
-                      <a 
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=tushar@vegnar.com"
-                        target="_blank"
-                        rel="noopener noreferrer" 
-                        className="text-red-500 hover:text-red-600 transition-colors"
-                      >
-                        <HiMail className="h-6 w-6" />
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-              {/* Second Author Card */}
-              <Card className="bg-card shadow-card border">
-                <CardContent className="p-6">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-full flex items-center justify-center mx-auto">
-                      <UserIcon className="h-10 w-10 text-secondary" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-lg text-foreground">Aashish</h4>
-                      <p className="text-sm text-muted-foreground mb-2">Chief Technology Officer</p>
-                      <p className="text-xs text-muted-foreground leading-relaxed">
-                        Specialist in GFRP structural applications and design optimization. M.Tech in Structural Engineering with expertise in composite reinforcement systems.
-                      </p>
-                    </div>
-                    <div className="flex justify-center space-x-4">
-                      <a 
-                        href="https://www.linkedin.com/in/ashiishchauhan/" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors"
-                      >
-                        <FaLinkedin className="h-6 w-6" />
-                      </a>
-                      <a 
-                        href="https://mail.google.com/mail/?view=cm&fs=1&to=chauhanashish360@vegnar.com"
-                        target="_blank"
-                        rel="noopener noreferrer" 
-                        className="text-red-500 hover:text-red-600 transition-colors"
-                      >
-                        <HiMail className="h-6 w-6" />
-                      </a>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-
-
-            </div>
           </div>
         </div>
       </section>
