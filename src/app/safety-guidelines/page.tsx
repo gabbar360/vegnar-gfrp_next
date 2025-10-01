@@ -68,7 +68,7 @@ const fireSafety = {
 };
 
 export default function SafetyGuidelines() {
-  const [openIdx, setOpenIdx] = useState(null);
+  const [openIdx, setOpenIdx] = useState<number | null>(null);
   return (
     <div className="relative min-h-screen py-12 px-4 md:px-0 overflow-hidden">
       {/* Animated background blobs */}

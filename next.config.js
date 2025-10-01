@@ -4,7 +4,11 @@ const nextConfig = {
     domains: ['localhost'],
     unoptimized: true
   },
-  trailingSlash: true
+  trailingSlash: true,
+  eslint: {
+    ignoreDuringBuilds: false,
+    dirs: ['src']
+  }
 }
 
 module.exports = nextConfig

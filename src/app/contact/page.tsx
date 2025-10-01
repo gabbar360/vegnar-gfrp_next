@@ -220,55 +220,55 @@ export default function Contact() {
 
               {/* Contact Cards */}
               <div className="space-y-6">
-                <Card className="border-l-4 border-l-orange-500 shadow-lg hover:shadow-xl transition-shadow">
-                  <CardContent className="p-6">
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <PhoneIcon className="h-6 w-6 text-orange-600" />
+                {/* Phone Card */}
+                <div className="group bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-orange-50 transition-colors">
+                      <PhoneIcon className="h-6 w-6 text-gray-600 group-hover:text-orange-600 transition-colors" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone Numbers</h3>
+                      <div className="space-y-1">
+                        <p className="text-gray-600">Sales: <span className="font-medium text-gray-900">+91 90333 31031</span></p>
+                        <p className="text-gray-600">Support: <span className="font-medium text-gray-900">+91 90333 31005</span></p>
                       </div>
-                      <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone Numbers</h3>
-                        <p className="text-gray-600 mb-1">Sales: +91 90333 31031</p>
-                        <p className="text-gray-600">Support: +91 90333 31005</p>
-                        <p className="text-sm text-gray-500 mt-2">Available Mon-Sat, 10 AM - 7 PM</p>
+                      <p className="text-sm text-gray-500 mt-2">Available Mon-Sat, 10 AM - 7 PM</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Email Card */}
+                <div className="group bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-orange-50 transition-colors">
+                      <EnvelopeIcon className="h-6 w-6 text-gray-600 group-hover:text-orange-600 transition-colors" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Address</h3>
+                      <p className="text-gray-600 mb-1">
+                        <span className="font-medium text-gray-900">sales@vegnar.com</span>
+                      </p>
+                      <p className="text-sm text-gray-500">We respond within 24 hours</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Address Card */}
+                <div className="group bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-orange-50 transition-colors">
+                      <MapPinIcon className="h-6 w-6 text-gray-600 group-hover:text-orange-600 transition-colors" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Address</h3>
+                      <div className="text-gray-600 leading-relaxed">
+                        <p>B-623, RK Iconic, Sheetal Park,</p>
+                        <p>150 Ft. Ring Road, Rajkot</p>
+                        <p className="font-medium text-gray-900">Gujarat 360006, India</p>
                       </div>
                     </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-l-4 border-l-orange-500 shadow-lg hover:shadow-xl transition-shadow">
-                  <CardContent className="p-6">
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <EnvelopeIcon className="h-6 w-6 text-orange-600" />
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Address</h3>
-                        <p className="text-gray-600 mb-1">sales@vegnar.com</p>
-                        <p className="text-sm text-gray-500 mt-2">We respond within 24 hours</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-l-4 border-l-orange-500 shadow-lg hover:shadow-xl transition-shadow">
-                  <CardContent className="p-6">
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <MapPinIcon className="h-6 w-6 text-orange-600" />
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Address</h3>
-                        <p className="text-gray-600 leading-relaxed">
-                          B-623, RK Iconic, Sheetal Park,<br />
-                          150 Ft. Ring Road, Rajkot<br />
-                          Gujarat 360006, India
-                        </p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
+                  </div>
+                </div>
               </div>
             </div>
 
