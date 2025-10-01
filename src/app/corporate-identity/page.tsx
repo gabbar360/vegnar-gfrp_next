@@ -1,23 +1,23 @@
-'use client';
+"use client";
 
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   ArrowDownIcon,
   DocumentIcon,
   EyeIcon,
-} from '@heroicons/react/24/outline';
-import Link from 'next/link';
+} from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const corporateDocuments = [
   {
     id: 1,
-    title: 'VEGNAR GFRP Company Profile',
+    title: "VEGNAR GFRP Company Profile",
     description:
-      'Complete corporate identity document featuring company profile, GFRP products, manufacturing processes, and technical specifications',
-    image: '/assets/company-facility.jpg',
-    pdfUrl: '/VEGNAR GFRP.pdf',
-    category: 'Corporate Identity',
+      "Complete corporate identity document featuring company profile, GFRP products, manufacturing processes, and technical specifications",
+    image: "/assets/company-facility.jpg",
+    pdfUrl: "/VEGNAR GFRP.pdf",
+    category: "Corporate Identity",
   },
 ];
 
@@ -26,17 +26,17 @@ export default function CorporateIdentity() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <section className="relative py-32 overflow-hidden h-[500px]">
-        <div 
+        <div
           className="absolute inset-0 bg-no-repeat bg-center"
-          style={{ 
+          style={{
             backgroundImage: `url(/assets/corporate.jpeg)`,
-            backgroundSize: '100% 100%'
+            backgroundSize: "100% 100%",
           }}
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
-            <h1 className="text-6xl md:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in">
+            <h1 className="text-4xl md:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in">
               <span className="bg-gradient-to-r from-orange-300 to-yellow-300 bg-clip-text text-transparent">
                 CORPORATE
               </span>
@@ -63,7 +63,7 @@ export default function CorporateIdentity() {
           </div>
 
           <div className="flex justify-center">
-            {corporateDocuments.map(document => (
+            {corporateDocuments.map((document) => (
               <div key={document.id}>
                 <Card className="group hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-orange-200 overflow-hidden w-full max-w-2xl">
                   <div className="relative overflow-hidden">
@@ -95,7 +95,7 @@ export default function CorporateIdentity() {
                       <Button
                         size="sm"
                         className="flex-1 bg-orange-600 hover:bg-orange-700 text-white"
-                        onClick={() => window.open(document.pdfUrl, '_blank')}
+                        onClick={() => window.open(document.pdfUrl, "_blank")}
                       >
                         <EyeIcon className="h-4 w-4 mr-2" />
                         View Document
@@ -105,9 +105,9 @@ export default function CorporateIdentity() {
                         variant="outline"
                         className="flex-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
                         onClick={() => {
-                          const link = document.createElement('a');
+                          const link = document.createElement("a");
                           link.href = document.pdfUrl;
-                          link.download = `${document.title.replace(/\s+/g, '-')}.pdf`;
+                          link.download = `${document.title.replace(/\s+/g, "-")}.pdf`;
                           link.click();
                         }}
                       >
@@ -139,20 +139,20 @@ export default function CorporateIdentity() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: 'Company Vision',
-                desc: 'Our vision to be a global leader in composite reinforcement solutions',
+                title: "Company Vision",
+                desc: "Our vision to be a global leader in composite reinforcement solutions",
               },
               {
-                title: 'Core Values',
-                desc: 'Innovation, quality, sustainability, and customer partnership',
+                title: "Core Values",
+                desc: "Innovation, quality, sustainability, and customer partnership",
               },
               {
-                title: 'Industry Leadership',
-                desc: '25+ years of expertise in GFRP manufacturing and innovation',
+                title: "Industry Leadership",
+                desc: "25+ years of expertise in GFRP manufacturing and innovation",
               },
               {
-                title: 'Global Presence',
-                desc: 'Serving clients worldwide with advanced GFRP solutions',
+                title: "Global Presence",
+                desc: "Serving clients worldwide with advanced GFRP solutions",
               },
             ].map((item, index) => (
               <div key={index} className="text-center group">
