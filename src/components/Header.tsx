@@ -26,9 +26,9 @@ export function Header() {
   };
 
   return (
-    <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/20 sticky top-0 z-40 transition-all duration-300 w-full overflow-x-hidden">
+    <header className="bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/20 fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full overflow-x-hidden">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8 w-full"
+        className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10 w-full"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
