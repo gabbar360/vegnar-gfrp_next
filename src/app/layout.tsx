@@ -30,15 +30,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={poppins.className}>
+    <html lang="en" className="overflow-x-hidden">
+      <body className={`${poppins.className} overflow-x-hidden`}>
         <ReactQueryProvider>
           <TooltipProvider>
             <Toaster />
             <Sonner />
-            <div className="min-h-screen flex flex-col">
+            <div className="min-h-screen flex flex-col overflow-x-hidden">
               <Header />
-              <main className="flex-1">
+              <main className="flex-1 overflow-x-hidden">
                 {children}
               </main>
               <Footer />

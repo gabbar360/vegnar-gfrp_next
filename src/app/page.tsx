@@ -89,7 +89,7 @@ const HeroSlider = () => {
 
 const Index = () => {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       {/* Hero Banner Section */}
       <HeroSlider />
 
