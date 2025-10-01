@@ -16,7 +16,7 @@ const corporateDocuments = [
     description:
       "Complete corporate identity document featuring company profile, GFRP products, manufacturing processes, and technical specifications",
     image: "/assets/company-facility.jpg",
-    pdfUrl: "/VEGNAR GFRP.pdf",
+    pdfUrl: "/assets/VEGNAR GFRP.pdf",
     category: "Corporate Identity",
   },
 ];
@@ -94,26 +94,26 @@ export default function CorporateIdentity() {
                     <div className="flex space-x-3">
                       <Button
                         size="sm"
-                        className="flex-1 bg-orange-600 hover:bg-orange-700 text-white"
-                        onClick={() => window.open(document.pdfUrl, "_blank")}
+                        className="flex-1 bg-orange-600 hover:bg-orange-700 text-white flex items-center justify-center"
+                        onClick={() => window.open(document.pdfUrl, '_blank')}
                       >
-                        <EyeIcon className="h-4 w-4 mr-2" />
+                        <EyeIcon className="h-4 w-4 mr-2 flex-shrink-0" />
                         View Document
                       </Button>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="flex-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
-                        onClick={() => {
-                          const link = document.createElement("a");
-                          link.href = document.pdfUrl;
-                          link.download = `${document.title.replace(/\s+/g, "-")}.pdf`;
-                          link.click();
-                        }}
+                      <a
+                        href={document.pdfUrl}
+                        download={`${document.title.replace(/\s+/g, "-")}.pdf`}
+                        className="flex-1"
                       >
-                        <ArrowDownIcon className="h-4 w-4 mr-2" />
-                        Download
-                      </Button>
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          className="w-full border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+                        >
+                          <ArrowDownIcon className="h-4 w-4 mr-2" />
+                          Download
+                        </Button>
+                      </a>
                     </div>
                   </CardContent>
                 </Card>
