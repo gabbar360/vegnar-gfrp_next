@@ -42,7 +42,7 @@ const caseStudies = [
 ];
 
 export default function CaseStudiesGlobal() {
-  const [openIdx, setOpenIdx] = React.useState(null);
+  const [openIdx, setOpenIdx] = React.useState<number | null>(null);
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-orange-50 py-12 px-4 md:px-0 relative">
       <div className="max-w-5xl mx-auto">
