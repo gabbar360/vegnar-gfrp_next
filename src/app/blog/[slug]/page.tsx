@@ -123,7 +123,7 @@ The future of marine construction will increasingly rely on corrosion-resistant 
     tags: ['Marine', 'Corrosion', 'Infrastructure', 'Saltwater'],
     readTime: 6,
     slug: 'marine-construction-gfrp-future',
-    featuredImage: '/banner/banner2.jpeg',
+    featuredImage: '/images/Blog/construction.png',
   },
   {
     id: '3',
