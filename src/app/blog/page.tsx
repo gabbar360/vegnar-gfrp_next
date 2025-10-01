@@ -37,7 +37,7 @@ const blogPosts = [
     date: "2024-01-10",
     category: "Applications",
     readTime: "6 min read",
-    image: "/banner/banner2.jpeg",
+    image: "/images/Blog/construction.png",
     slug: "marine-construction-gfrp-future",
   },
   {

@@ -45,21 +45,21 @@ const HeroSlider = () => {
           <div className="absolute inset-0 bg-black/50" />
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: 'url(/banner/home02.png)' }}
+            style={{ backgroundImage: 'url(/banner/home.png)' }}
           />
           <div className="relative h-full flex items-center justify-center">
             <div className="text-center max-w-5xl px-4 sm:px-6">
               <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 sm:mb-8 leading-tight">
                 VEGNAR GFRP - Leading Composite Solutions
               </h1>
-              <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-6 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
+              {/* <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-6 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
                 Revolutionary Glass Fiber Reinforced Polymer technology
                 transforming construction industry with superior strength and
                 durability
-              </p>
+              </p> */}
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center max-w-lg mx-auto">
                 <Link href="/blog" className="group">
-                  <Button className="relative w-full sm:w-auto bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md border-2 border-white/30 text-white hover:from-white/20 hover:to-white/10 hover:border-white/50 text-base px-8 py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-white/20 overflow-hidden">
+                  <Button className="relative w-full sm:w-auto bg-primary/90 backdrop-blur-sm border-2 border-primary/50 text-white hover:bg-primary hover:border-primary/70 text-base px-8 py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-xl overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <span className="relative flex items-center gap-2">
                       <AcademicCapIcon className="h-5 w-5" />
@@ -69,8 +69,8 @@ const HeroSlider = () => {
                   </Button>
                 </Link>
                 <Link href="/contact" className="group">
-                  <Button className="relative w-full sm:w-auto bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md border-2 border-white/30 text-white hover:from-white/20 hover:to-white/10 hover:border-white/50 text-base px-8 py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-white/20 overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                  <Button className="relative w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 border-2 border-green-400/50 text-white hover:from-green-600 hover:to-emerald-700 hover:border-green-300/70 text-base px-8 py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-xl overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <span className="relative flex items-center gap-2">
                       <CpuChipIcon className="h-5 w-5" />
                       Get Quote
