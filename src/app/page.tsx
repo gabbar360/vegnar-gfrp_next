@@ -370,7 +370,7 @@ const Index = () => {
       </section>
 
       {/* Our Valuable Clients Section */}
-      <section className="relative py-10 bg-gradient-to-br from-orange-50 via-white to-orange-100 overflow-hidden">
+      {/* <section className="relative py-10 bg-gradient-to-br from-orange-50 via-white to-orange-100 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,154,0,0.1),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(120,119,198,0.1),transparent_50%)]" />
 
@@ -402,7 +402,7 @@ const Index = () => {
             </h3>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
-              {/* Logo 1 */}
+              
               <div className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-center">
                   <div className="h-16 flex items-center justify-center mb-3">
@@ -415,7 +415,6 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* Logo 2 */}
               <div className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-center">
                   <div className="h-16 flex items-center justify-center mb-3">
@@ -428,7 +427,7 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* Logo 3 */}
+             
               <div className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-center">
                   <div className="h-16 flex items-center justify-center mb-3">
@@ -441,7 +440,7 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* Logo 4 */}
+             
               <div className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-center">
                   <div className="h-16 flex items-center justify-center mb-3">
@@ -454,7 +453,7 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* Logo 5 */}
+              
               <div className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
                 <div className="text-center">
                   <div className="h-16 flex items-center justify-center mb-3">
@@ -469,7 +468,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Spacer before footer */}
       <div className="py-2 bg-gradient-to-b from-transparent to-muted/20" />
