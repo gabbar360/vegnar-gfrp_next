@@ -1,17 +1,18 @@
 import Link from 'next/link';
 import {
-  EnvelopeIcon,
-  PhoneIcon,
-  MapPinIcon,
-  BuildingOfficeIcon,
-} from '@heroicons/react/24/outline';
-import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
   FaPinterest,
   FaWhatsapp,
 } from 'react-icons/fa';
+import {
+  MdLocationOn,
+  MdPhone,
+  MdEmail,
+  MdLanguage,
+  MdBusiness,
+} from 'react-icons/md';
 
 const navigation = {
   products: [
@@ -53,26 +54,26 @@ export function Footer() {
             {/* Contact Info */}
             <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-3">
-                <BuildingOfficeIcon className="h-5 w-5 text-primary" />
+                <MdLocationOn className="h-7 w-7 text-[#EF4444]" />
                 <span className="text-sm">
                   B-623, RK iconic, Sheetal Park, 150 Ft. Ring Road, Rajkot -
                   Gujarat (360006)
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <PhoneIcon className="h-5 w-5 text-primary" />
+                <MdPhone className="h-5 w-5 text-[#22C55E]" />
                 <span className="text-sm">+91 90333 31031</span>
               </div>
               <div className="flex items-center space-x-3">
-                <PhoneIcon className="h-5 w-5 text-primary" />
+                <MdPhone className="h-5 w-5 text-[#22C55E]" />
                 <span className="text-sm">+91 90333 31005</span>
               </div>
               <div className="flex items-center space-x-3">
-                <EnvelopeIcon className="h-5 w-5 text-primary" />
+                <MdEmail className="h-5 w-5 text-[#DC2626]" />
                 <span className="text-sm">sales@vegnar.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPinIcon className="h-5 w-5 text-primary" />
+                <MdLanguage className="h-5 w-5 text-[#3B82F6]" />
                 <span className="text-sm">www.vegnargfrp.com</span>
               </div>
             </div>
@@ -144,46 +145,46 @@ export function Footer() {
           {/* Social Media */}
           <div>
             <h3 className="text-sm font-semibold mb-4">Follow Us</h3>
-            <div className="flex space-x-3">
+            <div className="flex space-x-2">
               <a
                 href="https://www.facebook.com/profile.php?id=61581178121824"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-secondary-foreground/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#1877F2] hover:bg-[#166FE5] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
-                <FaFacebook className="w-8 h-4 text-secondary-foreground/70 group-hover:text-primary transition-colors" />
+                <FaFacebook className="w-8 h-4 text-white" />
               </a>
               <a
                 href="https://www.instagram.com/vegnargfrp/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-secondary-foreground/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] hover:from-[#7B2CBF] hover:via-[#E91E63] hover:to-[#FF9800] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
-                <FaInstagram className="w-8 h-4 text-secondary-foreground/70 group-hover:text-primary transition-colors" />
+                <FaInstagram className="w-8 h-4 text-white" />
               </a>
               <a
                 href="https://www.linkedin.com/company/vegnar-gfrp/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-secondary-foreground/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#0A66C2] hover:bg-[#095BA8] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
-                <FaLinkedin className="w-8 h-4 text-secondary-foreground/70 group-hover:text-primary transition-colors" />
+                <FaLinkedin className="w-8 h-4 text-white" />
               </a>
               <a
                 href="https://www.pinterest.com/vegnargfrp/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-secondary-foreground/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#E60023] hover:bg-[#D50020] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
-                <FaPinterest className="w-8 h-4 text-secondary-foreground/70 group-hover:text-primary transition-colors" />
+                <FaPinterest className="w-8 h-4 text-white" />
               </a>
               <a
                 href="https://wa.me/919033331005"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 bg-secondary-foreground/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#25D366] hover:bg-[#22C55E] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
-                <FaWhatsapp className="w-8 h-4 text-secondary-foreground/70 group-hover:text-primary transition-colors" />
+                <FaWhatsapp className="w-8 h-4 text-white" />
               </a>
             </div>
 

@@ -170,7 +170,7 @@ export default function CorporateIdentity() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-orange-600 to-orange-700">
+      <section className="py-20 bg-gradient-to-br from-[#9e5020] to-[#d4661a]">
         <div className="mx-auto max-w-4xl px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Partner with VEGNAR GFRP
@@ -184,7 +184,7 @@ export default function CorporateIdentity() {
             <Link href="/contact">
               <Button
                 size="lg"
-                className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 text-lg font-semibold"
+                className="bg-white text-[#9e5020] hover:bg-orange-50 px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 Contact Our Team
               </Button>
@@ -192,7 +192,7 @@ export default function CorporateIdentity() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-white text-orange-600 hover:bg-orange-50 px-8 py-4 text-lg font-semibold"
+              className="bg-white text-[#9e5020] hover:bg-orange-50 border-2 border-white px-8 py-4 text-lg font-semibold transition-all duration-300"
             >
               Partnership Inquiry
             </Button>
