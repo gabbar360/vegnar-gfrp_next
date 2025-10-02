@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -11,6 +12,32 @@ import {
   ClockIcon,
   GlobeAltIcon,
 } from '@heroicons/react/24/outline';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | GFRP Rebar Manufacturer Data Protection - Vegnar GFRP',
+  description: 'Vegnar GFRP privacy policy - how we collect, use & protect your personal information. Data security practices for glass fiber reinforced polymer manufacturer.',
+  keywords: 'privacy policy GFRP manufacturer, data protection glass fiber reinforced polymer, Vegnar GFRP privacy, construction materials privacy policy, personal information protection India',
+  openGraph: {
+    title: 'Privacy Policy | Vegnar GFRP',
+    description: 'Our commitment to protecting your personal information and data privacy.',
+    url: 'https://vegnargfrp.com/privacy',
+    images: [{
+      url: 'https://vegnargfrp.com/images/privacy-og.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Vegnar GFRP Privacy Policy - Data Protection',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy | Vegnar GFRP',
+    description: 'Our commitment to protecting your personal information.',
+    images: ['https://vegnargfrp.com/images/privacy-og.jpg'],
+  },
+  alternates: {
+    canonical: 'https://vegnargfrp.com/privacy',
+  },
+};
 
 const privacySections = [
   {
