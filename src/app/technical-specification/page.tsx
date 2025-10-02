@@ -1,4 +1,31 @@
+import { Metadata } from 'next';
 import React from "react";
+
+export const metadata: Metadata = {
+  title: 'GFRP Rebar Technical Specifications | Glass Fiber Reinforced Polymer Properties - Vegnar GFRP',
+  description: 'Complete technical specifications of GFRP rebars - tensile strength, modulus of elasticity, glass content, bond strength & performance data. IS 18256:2023 compliant GFRP bars.',
+  keywords: 'GFRP rebar specifications, glass fiber reinforced polymer properties, GFRP technical data, composite rebar specifications India, FRP rebar tensile strength, GFRP modulus elasticity, IS 18256 GFRP standards, construction material specifications',
+  openGraph: {
+    title: 'GFRP Rebar Technical Specifications | Vegnar GFRP',
+    description: 'Detailed technical specifications and performance data of GFRP rebars. IS 18256:2023 compliant glass fiber reinforced polymer bars.',
+    url: 'https://vegnargfrp.com/technical-specification',
+    images: [{
+      url: 'https://vegnargfrp.com/images/technical-specs-og.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'GFRP Rebar Technical Specifications - Performance Data',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GFRP Rebar Technical Specifications | Vegnar GFRP',
+    description: 'Complete technical specifications and performance data of GFRP rebars.',
+    images: ['https://vegnargfrp.com/images/technical-specs-og.jpg'],
+  },
+  alternates: {
+    canonical: 'https://vegnargfrp.com/technical-specification',
+  },
+};
 
 const techSpecSmall = [
   [

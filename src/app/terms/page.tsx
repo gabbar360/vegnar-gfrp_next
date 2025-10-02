@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -14,6 +15,32 @@ import {
   ClockIcon,
   GlobeAltIcon,
 } from '@heroicons/react/24/outline';
+
+export const metadata: Metadata = {
+  title: 'Terms of Service | GFRP Rebar Manufacturer Legal Terms - Vegnar GFRP',
+  description: 'Vegnar GFRP terms of service - legal terms & conditions for using our website & services. Glass fiber reinforced polymer manufacturer terms governed by Indian law.',
+  keywords: 'terms of service GFRP manufacturer, legal terms glass fiber reinforced polymer, Vegnar GFRP terms conditions, construction materials terms service, Indian law terms conditions',
+  openGraph: {
+    title: 'Terms of Service | Vegnar GFRP',
+    description: 'Legal terms and conditions for using Vegnar GFRP services and products.',
+    url: 'https://vegnargfrp.com/terms',
+    images: [{
+      url: 'https://vegnargfrp.com/images/terms-og.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Vegnar GFRP Terms of Service - Legal Terms',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms of Service | Vegnar GFRP',
+    description: 'Legal terms and conditions for using our services.',
+    images: ['https://vegnargfrp.com/images/terms-og.jpg'],
+  },
+  alternates: {
+    canonical: 'https://vegnargfrp.com/terms',
+  },
+};
 
 const termsSections = [
   {

@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -13,6 +14,32 @@ import {
   FireIcon,
   WrenchScrewdriverIcon,
 } from '@heroicons/react/24/outline';
+
+export const metadata: Metadata = {
+  title: 'GFRP Rebar Benefits vs Steel | Corrosion Resistant Reinforcement Advantages - Vegnar GFRP',
+  description: 'Discover key benefits of GFRP rebars over steel - 100% corrosion resistance, 75% lighter weight, superior strength, non-magnetic properties. Compare GFRP vs TMT steel performance.',
+  keywords: 'GFRP rebar benefits, corrosion resistant rebar advantages, GFRP vs steel comparison, non-magnetic reinforcement, lightweight rebar benefits, GFRP rebar properties, composite rebar advantages, FRP rebar benefits India, construction material benefits',
+  openGraph: {
+    title: 'GFRP Rebar Benefits | Superior to Steel Reinforcement',
+    description: 'Explore the superior benefits of GFRP rebars - corrosion resistance, lightweight, high strength, and long service life compared to traditional steel.',
+    url: 'https://vegnargfrp.com/benefits',
+    images: [{
+      url: 'https://vegnargfrp.com/images/benefits-og.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'GFRP Rebar Benefits - Superior Construction Material',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GFRP Rebar Benefits | Vegnar GFRP',
+    description: 'Discover superior benefits of GFRP rebars over steel reinforcement.',
+    images: ['https://vegnargfrp.com/images/benefits-og.jpg'],
+  },
+  alternates: {
+    canonical: 'https://vegnargfrp.com/benefits',
+  },
+};
 
 const benefits = [
   {

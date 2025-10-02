@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
@@ -8,6 +9,32 @@ import {
   ChartBarIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'About GFRP Rebar Manufacturer | Glass Fiber Reinforced Polymer Company - Vegnar GFRP',
+  description: 'Learn about Vegnar GFRP - Leading manufacturer of glass fiber reinforced polymer rebars in India. Our vision, mission, manufacturing process & technical excellence in GFRP technology.',
+  keywords: 'GFRP manufacturer about, glass fiber reinforced polymer company, GFRP rebar manufacturing process, pultrusion technology, composite reinforcement manufacturer India, GFRP company profile, corrosion resistant rebar manufacturer, FRP rebar company India',
+  openGraph: {
+    title: 'About Vegnar GFRP | Leading GFRP Rebar Manufacturer India',
+    description: 'Discover Vegnar GFRP - Premier manufacturer of glass fiber reinforced polymer rebars. Advanced pultrusion technology and quality manufacturing.',
+    url: 'https://vegnargfrp.com/about',
+    images: [{
+      url: 'https://vegnargfrp.com/images/about-og.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'About Vegnar GFRP - GFRP Rebar Manufacturing Excellence',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Vegnar GFRP | GFRP Rebar Manufacturer',
+    description: 'Leading manufacturer of glass fiber reinforced polymer rebars in India.',
+    images: ['https://vegnargfrp.com/images/about-og.jpg'],
+  },
+  alternates: {
+    canonical: 'https://vegnargfrp.com/about',
+  },
+};
 
 export default function About() {
   return (
