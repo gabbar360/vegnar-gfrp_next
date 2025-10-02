@@ -17,7 +17,7 @@ const navigation = [
   { name: "Contact", href: "/contact" },
 ];
 
-export function Header() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
@@ -123,9 +123,9 @@ export function Header() {
                 className="h-8 w-auto drop-shadow-lg"
                 priority
               />
-              <span className="text-lg font-bold text-gray-900">
+              {/* <span className="text-lg font-bold text-gray-900">
                 VEGNAR GFRP
-              </span>
+              </span> */}
             </Link>
             <button
               type="button"

@@ -48,8 +48,8 @@ const HeroSlider = () => {
             style={{ backgroundImage: 'url(/banner/home.png)' }}
           />
           <div className="relative h-full flex items-center justify-center">
-            <div className="text-center max-w-5xl px-4 sm:px-6">
-              <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 sm:mb-8 leading-tight">
+            <div className="text-center max-w-5xl px-4 sm:px-6 lg:px-8">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 sm:mb-6 md:mb-8 leading-tight">
                 VEGNAR GFRP - Leading Composite Solutions
               </h1>
               {/* <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-6 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
@@ -57,24 +57,24 @@ const HeroSlider = () => {
                 transforming construction industry with superior strength and
                 durability
               </p> */}
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center max-w-lg mx-auto">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center items-center max-w-sm sm:max-w-md md:max-w-lg mx-auto">
                 <Link href="/blog" className="group">
-                  <Button className="relative w-full sm:w-auto bg-primary/90 backdrop-blur-sm border-2 border-primary/50 text-white hover:bg-primary hover:border-primary/70 text-base px-8 py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-xl overflow-hidden">
+                  <Button className="relative w-full sm:w-auto bg-primary/90 backdrop-blur-sm border-2 border-primary/50 text-white hover:bg-primary hover:border-primary/70 text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-xl overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <span className="relative flex items-center gap-2">
-                      <AcademicCapIcon className="h-5 w-5" />
+                      <AcademicCapIcon className="h-4 w-4 sm:h-5 sm:w-5" />
                       Read Blog
-                      <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                      <ArrowRightIcon className="h-3 w-3 sm:h-4 sm:w-4 group-hover:translate-x-1 transition-transform duration-300" />
                     </span>
                   </Button>
                 </Link>
                 <Link href="/contact" className="group">
-                  <Button className="relative w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 border-2 border-green-400/50 text-white hover:from-green-600 hover:to-emerald-700 hover:border-green-300/70 text-base px-8 py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-xl overflow-hidden">
+                  <Button className="relative w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 border-2 border-green-400/50 text-white hover:from-green-600 hover:to-emerald-700 hover:border-green-300/70 text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-xl overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                     <span className="relative flex items-center gap-2">
-                      <CpuChipIcon className="h-5 w-5" />
+                      <CpuChipIcon className="h-4 w-4 sm:h-5 sm:w-5" />
                       Get Quote
-                      <ArrowRightIcon className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
+                      <ArrowRightIcon className="h-3 w-3 sm:h-4 sm:w-4 group-hover:translate-x-1 transition-transform duration-300" />
                     </span>
                   </Button>
                 </Link>
@@ -100,22 +100,22 @@ const Index = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(255,154,0,0.1),transparent_50%)]" />
 
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center mb-12">
-            <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-gray-900 via-primary to-secondary bg-clip-text text-transparent mb-4 leading-tight">
+          <div className="mx-auto max-w-4xl text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-gray-900 via-primary to-secondary bg-clip-text text-transparent mb-4 leading-tight">
               VEGNAR GFRP
               <br />
-              <span className="text-4xl md:text-5xl">
+              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
                 Engineering Excellence
               </span>
             </h2>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto px-4">
               Pioneering the future of construction with revolutionary Glass
               Fiber Reinforced Polymer technology. Where innovation meets
               uncompromising quality.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-[#9e5020]/20 to-[#9e5020]/5 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500" />
               <Card className="relative bg-white/80 backdrop-blur-sm border-0 shadow-2xl rounded-3xl p-8 group-hover:shadow-3xl transition-all duration-500 group-hover:-translate-y-2">
@@ -215,9 +215,9 @@ const Index = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(59,130,246,0.1),transparent_70%)]" />
 
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
                 Advanced GFRP
                 <br />
                 <span className="text-white">
@@ -225,19 +225,19 @@ const Index = () => {
                 </span>
               </h2>
 
-              <p className="text-xl text-white mb-8 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 leading-relaxed">
                 Engineered to exceed industry standards with superior mechanical
                 properties and long-term durability.
               </p>
 
-              <div className="grid grid-cols-2 gap-6 mb-6">
+              <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-6">
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
                   <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-4xl font-black text-white mb-2">
+                    <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-2">
                       1000+
                     </div>
-                    <div className="text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
                       MPa Tensile Strength
                     </div>
                   </div>
@@ -246,10 +246,10 @@ const Index = () => {
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
                   <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-4xl font-black text-white mb-2">
+                    <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-2">
                       50+
                     </div>
-                    <div className="text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
                       GPa Elastic Modulus
                     </div>
                   </div>
@@ -258,10 +258,10 @@ const Index = () => {
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
                   <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-4xl font-black text-white mb-2">
+                    <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-2">
                       100+
                     </div>
-                    <div className="text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
                       Years Service Life
                     </div>
                   </div>
@@ -270,10 +270,10 @@ const Index = () => {
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
                   <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-3xl font-black text-white mb-2">
+                    <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-2">
                       -40°C
                     </div>
-                    <div className="text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
                       to +80°C Range
                     </div>
                   </div>
@@ -309,7 +309,7 @@ const Index = () => {
       {/* Company Excellence */}
       <section className="bg-secondary py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
               <img
                 src="/assets/company-facility.jpg"
@@ -321,45 +321,45 @@ const Index = () => {
               <Badge variant="secondary" className="mb-4">
                 Manufacturing Excellence
               </Badge>
-              <h2 className="text-3xl font-bold tracking-tight text-secondary-foreground sm:text-4xl mb-6">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-secondary-foreground mb-4 sm:mb-6">
                 VEGNAR GFRP Excellence
               </h2>
-              <p className="text-lg text-secondary-foreground/90 mb-8">
+              <p className="text-base sm:text-lg text-secondary-foreground/90 mb-6 sm:mb-8">
                 State-of-the-art manufacturing facilities with advanced
                 pultrusion technology, ensuring consistent quality and superior
                 performance in every GFRP product.
               </p>
 
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-2 gap-4 sm:gap-6">
                 <div>
-                  <div className="text-3xl font-bold text-secondary-foreground">
+                  <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
                     25+
                   </div>
-                  <div className="text-secondary-foreground/80">
+                  <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Years Experience
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-secondary-foreground">
+                  <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
                     5000+
                   </div>
-                  <div className="text-secondary-foreground/80">
+                  <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Projects Completed
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-secondary-foreground">
+                  <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
                     50+
                   </div>
-                  <div className="text-secondary-foreground/80">
+                  <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Countries Served
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-secondary-foreground">
+                  <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
                     ISO
                   </div>
-                  <div className="text-secondary-foreground/80">
+                  <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Certified Quality
                   </div>
                 </div>

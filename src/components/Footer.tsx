@@ -31,7 +31,7 @@ const navigation = {
   ],
 };
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">

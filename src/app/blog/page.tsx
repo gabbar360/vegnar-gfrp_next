@@ -19,8 +19,7 @@ const blogPosts = [
   {
     id: 1,
     title: "GFRP vs Steel: The Ultimate Comparison for Modern Construction",
-    excerpt:
-      "Discover why GFRP rebars are revolutionizing the construction industry with superior corrosion resistance and durability compared to traditional steel reinforcement.",
+    excerpt:"Discover why GFRP rebars are revolutionizing the construction industry with superior corrosion resistance and durability compared to traditional steel reinforcement.",
     date: "2025-9-20",
     category: "Technical",
     readTime: "8 min read",
@@ -30,9 +29,7 @@ const blogPosts = [
   {
     id: 2,
     title: "Marine Construction: Why GFRP is the Future",
-    excerpt:
-      "Explore how GFRP rebars are transforming marine infrastructure projects with their exceptional resistance to saltwater corrosion.",
-    author: "Priya Sharma",
+    excerpt:"Explore how GFRP rebars are transforming marine infrastructure projects with their exceptional resistance to saltwater corrosion.",
     date: "2025-9-20",
     category: "Applications",
     readTime: "6 min read",
