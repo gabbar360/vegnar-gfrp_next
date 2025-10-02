@@ -17,7 +17,7 @@ const navigation = [
   { name: "Contact", href: "/contact" },
 ];
 
-export function Header() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
