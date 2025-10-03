@@ -50,7 +50,7 @@ export default function CaseStudiesGlobal() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-4xl font-bold text-primary mb-2 text-center drop-shadow-lg"
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-2 text-center drop-shadow-lg px-2"
         >
           Case Studies: <span className="text-orange-700">Global Applications of GFRP Rebars</span>
         </motion.h1>
@@ -58,7 +58,7 @@ export default function CaseStudiesGlobal() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.7 }}
-          className="text-lg text-gray-700 mb-10 text-center"
+          className="text-sm sm:text-base md:text-lg text-gray-700 mb-10 text-center px-4"
         >
           Glass Fiber Reinforced Polymer (GFRP) rebars are gaining worldwide acceptance as a sustainable and high-performance alternative to steel reinforcement. Below are some prominent case studies demonstrating their successful applications across diverse infrastructure projects:
         </motion.p>
