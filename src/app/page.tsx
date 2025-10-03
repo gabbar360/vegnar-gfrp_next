@@ -257,11 +257,11 @@ const Index = () => {
               <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-6">
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
-                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-2">
+                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-4 sm:p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300 h-24 sm:h-28 flex flex-col justify-center">
+                    <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-1">
                       1000+
                     </div>
-                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide leading-tight">
                       MPa Tensile Strength
                     </div>
                   </div>
@@ -269,11 +269,11 @@ const Index = () => {
 
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
-                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-2">
+                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-4 sm:p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300 h-24 sm:h-28 flex flex-col justify-center">
+                    <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-1">
                       50+
                     </div>
-                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide leading-tight">
                       GPa Elastic Modulus
                     </div>
                   </div>
@@ -281,11 +281,11 @@ const Index = () => {
 
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
-                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-white mb-2">
+                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-4 sm:p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300 h-24 sm:h-28 flex flex-col justify-center">
+                    <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-1">
                       100+
                     </div>
-                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide leading-tight">
                       Years Service Life
                     </div>
                   </div>
@@ -293,11 +293,11 @@ const Index = () => {
 
                 <div className="group relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-white/5 rounded-2xl blur-lg group-hover:blur-xl transition-all duration-300" />
-                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300">
-                    <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-2">
+                  <div className="relative bg-white/10 backdrop-blur-sm border border-white/20 p-4 sm:p-6 rounded-2xl group-hover:bg-white/15 transition-all duration-300 h-24 sm:h-28 flex flex-col justify-center">
+                    <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-white mb-1">
                       -40°C
                     </div>
-                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide">
+                    <div className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wide leading-tight">
                       to +80°C Range
                     </div>
                   </div>

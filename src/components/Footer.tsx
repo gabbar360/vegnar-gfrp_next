@@ -54,26 +54,26 @@ export default function Footer() {
             {/* Contact Info */}
             <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-3">
-                <MdLocationOn className="h-7 w-7 text-[#EF4444]" />
+                <MdLocationOn className="h-7 w-7 text-[#9e5020]" />
                 <span className="text-sm">
                   B-623, RK iconic, Sheetal Park, 150 Ft. Ring Road, Rajkot -
                   Gujarat (360006)
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <MdPhone className="h-5 w-5 text-[#22C55E]" />
+                <MdPhone className="h-5 w-5 text-[#9e5020]" />
                 <span className="text-sm">+91 90333 31031</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MdPhone className="h-5 w-5 text-[#22C55E]" />
+                <MdPhone className="h-5 w-5 text-[#9e5020]" />
                 <span className="text-sm">+91 90333 31005</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MdEmail className="h-5 w-5 text-[#DC2626]" />
+                <MdEmail className="h-5 w-5 text-[#9e5020]" />
                 <span className="text-sm">sales@vegnar.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MdLanguage className="h-5 w-5 text-[#3B82F6]" />
+                <MdLanguage className="h-5 w-5 text-[#9e5020]" />
                 <span className="text-sm">www.vegnargfrp.com</span>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function Footer() {
                 href="https://www.facebook.com/profile.php?id=61581178121824"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-8 bg-[#1877F2] hover:bg-[#166FE5] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#9e5020] hover:bg-[#8a4519] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
                 <FaFacebook className="w-8 h-4 text-white" />
               </a>
@@ -158,7 +158,7 @@ export default function Footer() {
                 href="https://www.instagram.com/vegnargfrp/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-8 bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] hover:from-[#7B2CBF] hover:via-[#E91E63] hover:to-[#FF9800] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#9e5020] hover:bg-[#8a4519] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
                 <FaInstagram className="w-8 h-4 text-white" />
               </a>
@@ -166,7 +166,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/vegnar-gfrp/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-8 bg-[#0A66C2] hover:bg-[#095BA8] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#9e5020] hover:bg-[#8a4519] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
                 <FaLinkedin className="w-8 h-4 text-white" />
               </a>
@@ -174,7 +174,7 @@ export default function Footer() {
                 href="https://www.pinterest.com/vegnargfrp/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-8 bg-[#E60023] hover:bg-[#D50020] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#9e5020] hover:bg-[#8a4519] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
                 <FaPinterest className="w-8 h-4 text-white" />
               </a>
@@ -182,7 +182,7 @@ export default function Footer() {
                 href="https://wa.me/919033331005"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-8 bg-[#25D366] hover:bg-[#22C55E] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
+                className="w-12 h-8 bg-[#9e5020] hover:bg-[#8a4519] rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
                 <FaWhatsapp className="w-8 h-4 text-white" />
               </a>
