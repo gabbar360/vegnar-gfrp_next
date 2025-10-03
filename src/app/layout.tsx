@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   creator: 'Vegnar GFRP',
   publisher: 'Vegnar GFRP',
   robots: 'index,follow',
+  icons: {
+    icon: '/images/fevicon.png',
+    shortcut: '/images/fevicon.png',
+    apple: '/images/fevicon.png',
+  },
   openGraph: {
     title: 'Vegnar GFRP | India\'s Leading GFRP Rebar Manufacturer',
     description: 'Leading manufacturer of corrosion-resistant GFRP rebars in India. Advanced glass fiber reinforced polymer solutions for construction, marine, and infrastructure projects with 100+ years lifespan.',
@@ -119,7 +124,6 @@ export default function RootLayout({
             __html: JSON.stringify(organizationSchema),
           }}
         />
-        <link rel="icon" href="/images/fevicon.png" type="image/png" />
       </head>
       <body className="font-poppins antialiased">
         <ReactQueryProvider>

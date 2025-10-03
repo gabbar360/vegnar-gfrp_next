@@ -39,9 +39,9 @@ export default function Header() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 w-full ${
       scrolled 
         ? 'bg-white/95 backdrop-blur-xl border-b border-gray-200/50 shadow-xl' 
-        : 'bg-white/20 backdrop-blur-md border-b border-white/10'
+        : 'bg-transparent'
     }`}>
-      <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-white/50 to-white/30"></div>
+      {scrolled && <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-white/50 to-white/30"></div>}
       <nav
         className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10 w-full"
         aria-label="Global"
@@ -76,14 +76,14 @@ export default function Header() {
             className={`p-2 rounded-xl backdrop-blur-md border transition-all duration-300 shadow-lg ${
               scrolled
                 ? "bg-white/80 border-gray-200/50 hover:bg-white/90"
-                : "bg-white/40 border-white/30 hover:bg-white/60"
+                : "bg-white/20 border-white/30 hover:bg-white/30"
             }`}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
-              <XMarkIcon className="h-6 w-6 text-gray-700" />
+              <XMarkIcon className={`h-6 w-6 ${scrolled ? 'text-gray-700' : 'text-white'}`} />
             ) : (
-              <Bars3Icon className="h-6 w-6 text-gray-700" />
+              <Bars3Icon className={`h-6 w-6 ${scrolled ? 'text-gray-700' : 'text-white'}`} />
             )}
           </button>
         </div>
@@ -96,7 +96,9 @@ export default function Header() {
               className={`text-sm font-medium whitespace-nowrap transition-all duration-300 hover:scale-105 ${
                 isActive(item.href)
                   ? "text-primary border-b-2 border-primary pb-1"
-                  : "text-foreground hover:text-primary"
+                  : scrolled
+                    ? "text-foreground hover:text-primary"
+                    : "text-white hover:text-primary"
               }`}
             >
               {item.name}
