@@ -13,16 +13,16 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'GFRP Rebar Manufacturer India | Glass Fiber Reinforced Polymer - Vegnar GFRP',
-  description: 'Leading GFRP rebar manufacturer in India. Corrosion-resistant glass fiber reinforced polymer rebars for construction, marine & infrastructure projects. ISO certified quality.',
-  keywords: 'GFRP rebar manufacturer India, glass fiber reinforced polymer, corrosion resistant rebar, FRP rebar, composite rebar manufacturer, GFRP bars India, non-corrosive reinforcement, construction materials India, infrastructure solutions, marine construction rebar',
+  title: 'Vegnar GFRP | Leading GFRP Rebar Manufacturer India | Glass Fiber Reinforced Polymer Bars',
+  description: 'Leading GFRP rebar manufacturer in India. Corrosion-resistant glass fiber reinforced polymer rebars for construction, marine & infrastructure projects. ISO certified quality with 100+ years lifespan.',
+  keywords: 'GFRP rebar manufacturer India, glass fiber reinforced polymer bars, corrosion resistant rebar, FRP rebar supplier, composite rebar manufacturer, GFRP bars India, non-corrosive reinforcement, construction materials India, infrastructure solutions, marine construction rebar, TMT steel alternative, concrete reinforcement bars, pultrusion technology, IS 18256 compliant GFRP, Gujarat GFRP manufacturer, Rajkot composite materials, bridge construction rebar, coastal infrastructure materials, chemical resistant reinforcement, lightweight construction bars, sustainable building materials, green construction solutions, earthquake resistant rebar, fire retardant GFRP, high strength composite bars, non-magnetic reinforcement, electrical insulation rebar, thermal bridge free construction, precast concrete reinforcement, ready mix concrete bars, infrastructure development materials, smart city construction materials',
   authors: [{ name: 'Vegnar GFRP' }],
   creator: 'Vegnar GFRP',
   publisher: 'Vegnar GFRP',
   robots: 'index,follow',
   openGraph: {
-    title: 'GFRP Rebar Manufacturer India | Vegnar GFRP',
-    description: 'Leading manufacturer of corrosion-resistant GFRP rebars in India. Advanced glass fiber reinforced polymer solutions for construction and infrastructure.',
+    title: 'Vegnar GFRP | India\'s Leading GFRP Rebar Manufacturer',
+    description: 'Leading manufacturer of corrosion-resistant GFRP rebars in India. Advanced glass fiber reinforced polymer solutions for construction, marine, and infrastructure projects with 100+ years lifespan.',
     url: 'https://vegnargfrp.com',
     siteName: 'Vegnar GFRP',
     images: [{
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GFRP Rebar Manufacturer India | Vegnar GFRP',
-    description: 'Leading manufacturer of corrosion-resistant GFRP rebars in India.',
+    title: 'Vegnar GFRP | Premium GFRP Rebar Manufacturer India',
+    description: 'Leading manufacturer of corrosion-resistant GFRP rebars in India. TMT steel alternative with superior performance.',
     images: ['https://vegnargfrp.com/images/og-image.jpg'],
     creator: '@vegnargfrp',
   },
@@ -54,10 +54,10 @@ export default function RootLayout({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Vegnar GFRP',
+    name: 'Vegnar GFRP - Glass Fiber Reinforced Polymer Manufacturer',
     url: 'https://vegnargfrp.com',
     logo: 'https://vegnargfrp.com/images/gfrp_logo.png',
-    description: 'Leading manufacturer of GFRP rebar and glass fiber reinforced polymer products in India',
+    description: 'Vegnar GFRP - India\'s premier GFRP rebar and glass fiber reinforced polymer manufacturer. Corrosion-free construction materials with IS 18256 certification',
     foundingDate: '2020',
     industry: 'Construction Materials',
     address: {

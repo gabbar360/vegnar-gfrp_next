@@ -46,9 +46,9 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-secondary-foreground/80 mb-6 max-w-md">
-              Leading manufacturer of Glass Fiber Reinforced Polymer (GFRP)
-              products. Providing innovative composite solutions for
-              construction, infrastructure, and industrial applications.
+              Vegnar GFRP - Leading manufacturer of Glass Fiber Reinforced Polymer (GFRP)
+              rebars and composite products in India. Providing innovative GFRP solutions for
+              construction, marine infrastructure, and industrial applications.
             </p>
 
             {/* Contact Info */}

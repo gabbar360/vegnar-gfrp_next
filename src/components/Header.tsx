@@ -78,9 +78,13 @@ export default function Header() {
                 ? "bg-white/80 border-gray-200/50 hover:bg-white/90"
                 : "bg-white/40 border-white/30 hover:bg-white/60"
             }`}
-            onClick={() => setMobileMenuOpen(true)}
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            <Bars3Icon className="h-6 w-6 text-gray-700" />
+            {mobileMenuOpen ? (
+              <XMarkIcon className="h-6 w-6 text-gray-700" />
+            ) : (
+              <Bars3Icon className="h-6 w-6 text-gray-700" />
+            )}
           </button>
         </div>
 
@@ -107,34 +111,9 @@ export default function Header() {
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
-        <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto overflow-x-hidden bg-white/95 backdrop-blur-xl border-l border-gray-200/50 px-6 py-6 sm:max-w-sm shadow-2xl">
-          <div className="flex items-center justify-between">
-            <Link
-              href="/"
-              className="flex items-center space-x-3"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <Image
-                src="/images/gfrp_logo.png"
-                alt="Vegnar GFRP Logo"
-                width={32}
-                height={32}
-                className="h-8 w-auto drop-shadow-lg"
-                priority
-              />
-              {/* <span className="text-lg font-bold text-gray-900">
-                VEGNAR GFRP
-              </span> */}
-            </Link>
-            <button
-              type="button"
-              className="p-2 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <XMarkIcon className="h-6 w-6 text-gray-700" />
-            </button>
-          </div>
+        <div className="fixed inset-0 z-30 bg-black/20" onClick={() => setMobileMenuOpen(false)} />
+        <Dialog.Panel className="fixed top-20 left-0 right-0 z-40 w-full overflow-y-auto overflow-x-hidden bg-white/95 backdrop-blur-xl border-b border-gray-200/50 px-6 py-6 shadow-2xl max-h-[calc(100vh-5rem)]">
+
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-200/30">
               <div className="space-y-3 py-6">
