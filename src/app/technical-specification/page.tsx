@@ -179,14 +179,14 @@ export default function TechnicalSpecification() {
       <div className="max-w-5xl mx-auto bg-white/80 rounded-3xl shadow-2xl p-4 md:p-10 border border-orange-200">
         {/* Product Portfolio Title */}
         <div className="flex flex-col items-center mb-8">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-orange-700 tracking-tight mb-1">
-            <span className="block text-2xl md:text-3xl font-bold text-orange-800">PRODUCT</span>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-orange-700 tracking-tight mb-1 text-center px-2">
+            <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-orange-800">PRODUCT</span>
             PORTFOLIO
           </h1>
         </div>
 
         {/* Product Specifications Section */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-2 text-center">Product Specifications</h2>
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800 mb-2 text-center px-2">Product Specifications</h2>
         <div className="w-full flex flex-col items-center mb-8">
           {/* Staight Bar Table */}
           <div className="w-full overflow-x-auto mb-2">
@@ -238,7 +238,7 @@ export default function TechnicalSpecification() {
         </div>
 
         {/* Technical Specification Tables (original content) */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-2 text-center mt-10">Technical Specification of GFRP Rebars</h2>
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800 mb-2 text-center mt-10 px-2">Technical Specification of GFRP Rebars</h2>
         <div className="mb-10">
           <h3 className="text-lg font-bold text-orange-600 mb-2 text-center">GFRP Rebar (6, 8, 10, 12 mm)</h3>
           <div className="overflow-x-auto">

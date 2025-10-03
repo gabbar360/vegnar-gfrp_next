@@ -179,23 +179,24 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-32 overflow-hidden h-[500px]">
+      <section className="relative overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
         <div 
-          className="absolute inset-0 bg-no-repeat bg-center"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
             backgroundImage: `url(/assets/contact.jpeg)`,
-            backgroundSize: '100% 100%'
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center'
           }}
         />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl text-center">
-            <h1 className="text-6xl md:text-7xl font-bold text-white mb-8 leading-tight animate-fade-in">
+        <div className="relative h-full flex items-center justify-center px-4">
+          <div className="text-center max-w-4xl w-full">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-orange-300 to-yellow-300 bg-clip-text text-transparent">
                 GET IN
               </span>
               <br />
-              <span className="text-5xl md:text-6xl text-orange-100">
+              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-orange-100">
                 TOUCH
               </span>
             </h1>

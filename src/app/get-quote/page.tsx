@@ -35,19 +35,23 @@ export default function GetQuote() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative py-32 overflow-hidden">
+      <section className="relative overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(/banner/banner4.jpeg)' }}
+          style={{ 
+            backgroundImage: 'url(/banner/banner4.jpeg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center'
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#9e5020]/90 to-[#9e5020]/70" />
         
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+        <div className="relative h-full flex items-center justify-center px-4">
+          <div className="text-center max-w-3xl w-full">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               Get Your Quote
             </h1>
-            <p className="text-xl text-orange-100 leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-orange-100 leading-relaxed px-2">
               Request a customized quote for your GFRP reinforcement needs. 
               Our experts will provide detailed pricing and technical specifications.
             </p>

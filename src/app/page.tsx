@@ -41,15 +41,19 @@ const HeroSlider = () => {
   return (
     <section className="relative">
       <div className="w-full">
-        <div className="relative h-[500px] sm:h-[600px] lg:h-[700px] bg-gradient-to-br from-secondary to-secondary/90">
+        <div className="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] bg-gradient-to-br from-secondary to-secondary/90">
           <div className="absolute inset-0 bg-black/50" />
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: 'url(/banner/home.png)' }}
+            style={{ 
+              backgroundImage: 'url(/banner/home.png)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center center'
+            }}
           />
-          <div className="relative h-full flex items-center justify-center">
-            <div className="text-center max-w-5xl px-4 sm:px-6 lg:px-8">
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 sm:mb-6 md:mb-8 leading-tight">
+          <div className="relative h-full flex items-center justify-center px-4">
+            <div className="text-center max-w-5xl w-full">
+              <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-white mb-4 sm:mb-6 md:mb-8 leading-tight px-2">
                 VEGNAR GFRP - Leading Composite Solutions
               </h1>
               {/* <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-6 sm:mb-10 max-w-3xl mx-auto leading-relaxed">

@@ -87,7 +87,7 @@ export default function SafetyGuidelines() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-extrabold text-primary mb-2 text-center drop-shadow-xl tracking-tight"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary mb-2 text-center drop-shadow-xl tracking-tight px-2"
         >
           <span className="inline-block animate-pulse">Safety</span> <span className="text-orange-700 animate-bounce">Guidelines</span>
         </motion.h1>
@@ -95,7 +95,7 @@ export default function SafetyGuidelines() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.7 }}
-          className="text-xl text-gray-700 mb-12 text-center font-medium"
+          className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 mb-12 text-center font-medium px-4"
         >
           Please follow these safety and fire safety guidelines when handling and installing GFRP rebar products.
         </motion.p>

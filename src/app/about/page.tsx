@@ -40,15 +40,29 @@ export default function About() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-16 sm:py-24 md:py-32 overflow-hidden h-[300px] sm:h-[400px] md:h-[500px]">
+      <section className="relative overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
         <div 
-          className="absolute inset-0 bg-no-repeat bg-center"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
             backgroundImage: `url(/assets/About.jpeg)`,
-            backgroundSize: '100% 100%'
+            backgroundSize: 'cover',
+            backgroundPosition: 'center center'
           }}
         />
         <div className="absolute inset-0 bg-black/40" />
+        <div className="relative h-full flex items-center justify-center px-4">
+          <div className="text-center max-w-4xl w-full">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+              <span className="bg-gradient-to-r from-orange-300 to-yellow-300 bg-clip-text text-transparent">
+                About
+              </span>
+              <br />
+              <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-orange-100">
+                VEGNAR GFRP
+              </span>
+            </h1>
+          </div>
+        </div>
       </section>
 
       {/* About Us Section */}
