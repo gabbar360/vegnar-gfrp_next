@@ -253,7 +253,7 @@ export default function Benefits() {
           <div className="text-center max-w-4xl w-full">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-orange-300 to-yellow-300 bg-clip-text text-transparent">
-                Benefits of
+                BENEFITS OF
               </span>
               <br />
               <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-orange-100">

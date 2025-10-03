@@ -70,7 +70,7 @@ const fireSafety = {
 export default function SafetyGuidelines() {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
   return (
-    <div className="relative min-h-screen py-12 px-4 md:px-0 overflow-hidden">
+    <div className="relative min-h-screen pt-24 pb-12 px-4 md:px-0 overflow-hidden">
       {/* Animated background blobs */}
       <motion.div
         className="absolute -top-32 -left-32 w-96 h-96 bg-orange-200 rounded-full filter blur-3xl opacity-40 z-0"
@@ -87,15 +87,15 @@ export default function SafetyGuidelines() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary mb-2 text-center drop-shadow-xl tracking-tight px-2"
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-primary mb-8 text-center drop-shadow-xl tracking-tight px-4 max-w-4xl mx-auto"
         >
-          <span className="inline-block animate-pulse">Safety</span> <span className="text-orange-700 animate-bounce">Guidelines</span>
+          <span className="inline-block animate-pulse">SAFETY</span> <span className="text-orange-700 animate-bounce">GUIDELINES</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.7 }}
-          className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 mb-12 text-center font-medium px-4"
+          className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-700 mb-16 text-center font-medium px-6 max-w-5xl mx-auto leading-relaxed"
         >
           Please follow these safety and fire safety guidelines when handling and installing GFRP rebar products.
         </motion.p>

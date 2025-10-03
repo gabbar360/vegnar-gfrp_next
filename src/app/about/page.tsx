@@ -50,11 +50,11 @@ export default function About() {
           }}
         />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="relative h-full flex items-center justify-center px-4">
+        {/* <div className="relative h-full flex items-center justify-center px-4">
           <div className="text-center max-w-4xl w-full">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-orange-300 to-yellow-300 bg-clip-text text-transparent">
-                About
+                ABOUT
               </span>
               <br />
               <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-orange-100">
@@ -62,7 +62,7 @@ export default function About() {
               </span>
             </h1>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* About Us Section */}
