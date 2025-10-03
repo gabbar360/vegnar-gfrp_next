@@ -54,8 +54,11 @@ const HeroSlider = () => {
           <div className="relative h-full flex items-center justify-center px-4">
             <div className="text-center max-w-5xl w-full">
               <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-white mb-4 sm:mb-6 md:mb-8 leading-tight px-2">
-                VEGNAR GFRP - Leading Composite Solutions
+                VEGNAR GFRP | India's Leading GFRP Rebar Manufacturer | Corrosion Resistant Composite Solutions
               </h1>
+              <p className="text-sm sm:text-base md:text-lg text-white/90 mb-4 px-4 max-w-4xl mx-auto">
+                Premium Glass Fiber Reinforced Polymer Rebars | TMT Steel Alternative | 100+ Years Lifespan | IS 18256 Certified | Gujarat's Trusted GFRP Supplier
+              </p>
               {/* <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-100 mb-6 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
                 Revolutionary Glass Fiber Reinforced Polymer technology
                 transforming construction industry with superior strength and
@@ -109,14 +112,31 @@ const Index = () => {
               VEGNAR GFRP
               <br />
               <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-                Engineering Excellence
+                GFRP Rebar Engineering Excellence
               </span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto px-4">
               Pioneering the future of construction with revolutionary Glass
-              Fiber Reinforced Polymer technology. Where innovation meets
-              uncompromising quality.
+              Fiber Reinforced Polymer (GFRP) rebar technology. India's leading manufacturer of corrosion-resistant composite reinforcement bars for marine, infrastructure, and building construction projects.
             </p>
+            <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center max-w-4xl mx-auto">
+              <div className="bg-white/10 rounded-lg p-3">
+                <div className="text-lg font-bold text-primary">100+</div>
+                <div className="text-xs text-gray-600">Years Lifespan</div>
+              </div>
+              <div className="bg-white/10 rounded-lg p-3">
+                <div className="text-lg font-bold text-primary">75%</div>
+                <div className="text-xs text-gray-600">Lighter than Steel</div>
+              </div>
+              <div className="bg-white/10 rounded-lg p-3">
+                <div className="text-lg font-bold text-primary">0%</div>
+                <div className="text-xs text-gray-600">Corrosion Rate</div>
+              </div>
+              <div className="bg-white/10 rounded-lg p-3">
+                <div className="text-lg font-bold text-primary">IS 18256</div>
+                <div className="text-xs text-gray-600">Certified</div>
+              </div>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

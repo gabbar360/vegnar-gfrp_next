@@ -13,7 +13,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About GFRP Rebar Manufacturer | Glass Fiber Reinforced Polymer Company - Vegnar GFRP',
   description: 'Learn about Vegnar GFRP - Leading manufacturer of glass fiber reinforced polymer rebars in India. Our vision, mission, manufacturing process & technical excellence in GFRP technology.',
-  keywords: 'GFRP manufacturer about, glass fiber reinforced polymer company, GFRP rebar manufacturing process, pultrusion technology, composite reinforcement manufacturer India, GFRP company profile, corrosion resistant rebar manufacturer, FRP rebar company India',
+  keywords: 'GFRP manufacturer about, glass fiber reinforced polymer company, GFRP rebar manufacturing process, pultrusion technology, composite reinforcement manufacturer India, GFRP company profile, corrosion resistant rebar manufacturer, FRP rebar company India, Gujarat GFRP manufacturer, Rajkot composite materials company, IS 18256 certified manufacturer, TMT steel alternative supplier, marine construction materials manufacturer, infrastructure development materials, bridge construction rebar supplier, coastal infrastructure materials, chemical resistant reinforcement manufacturer, earthquake resistant rebar company, fire retardant GFRP manufacturer, precast concrete reinforcement supplier, ready mix concrete bars manufacturer, smart city construction materials, green building materials supplier, sustainable construction solutions, maintenance free construction materials, long lasting building materials manufacturer, cost effective reinforcement solutions, thermal bridge free construction materials, electrical insulation rebar manufacturer, non-conductive reinforcement supplier',
   openGraph: {
     title: 'About Vegnar GFRP | Leading GFRP Rebar Manufacturer India',
     description: 'Discover Vegnar GFRP - Premier manufacturer of glass fiber reinforced polymer rebars. Advanced pultrusion technology and quality manufacturing.',
@@ -77,12 +77,12 @@ export default function About() {
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                   Vegnar GFRP is a leading manufacturer of high-quality Glass
                   Fiber Reinforced Polymer (GFRP) composite reinforcement
-                  products. We supply GFRP rebar (straight and bent),
+                  products in Gujarat, India. We supply IS 18256 certified GFRP rebar (straight and bent),
                   mesh/grids, and custom composite profiles for civil
                   infrastructure, marine, industrial, and specialty construction
-                  applications. Our priority is to combine advanced materials,
+                  applications. As a trusted TMT steel alternative supplier, our priority is to combine advanced pultrusion technology,
                   precise manufacturing, and rigorous quality control to deliver
-                  durable, corrosion-resistant reinforcement solutions.
+                  durable, corrosion-resistant reinforcement solutions with 100+ years lifespan.
                 </p>
               </div>
 

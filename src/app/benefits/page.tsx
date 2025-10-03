@@ -18,7 +18,7 @@ import {
 export const metadata: Metadata = {
   title: 'GFRP Rebar Benefits vs Steel | Corrosion Resistant Reinforcement Advantages - Vegnar GFRP',
   description: 'Discover key benefits of GFRP rebars over steel - 100% corrosion resistance, 75% lighter weight, superior strength, non-magnetic properties. Compare GFRP vs TMT steel performance.',
-  keywords: 'GFRP rebar benefits, corrosion resistant rebar advantages, GFRP vs steel comparison, non-magnetic reinforcement, lightweight rebar benefits, GFRP rebar properties, composite rebar advantages, FRP rebar benefits India, construction material benefits',
+  keywords: 'GFRP rebar benefits, corrosion resistant rebar advantages, GFRP vs steel comparison, non-magnetic reinforcement, lightweight rebar benefits, GFRP rebar properties, composite rebar advantages, FRP rebar benefits India, construction material benefits, TMT steel alternative benefits, marine construction rebar, coastal infrastructure materials, Gujarat GFRP benefits, Rajkot composite materials, bridge construction advantages, earthquake resistant rebar benefits, fire retardant GFRP advantages, chemical resistant reinforcement benefits, precast concrete rebar benefits, ready mix concrete reinforcement, infrastructure development materials, smart city construction benefits, green building materials, sustainable construction solutions, IS 18256 compliant benefits, pultrusion technology advantages, thermal bridge free construction, electrical insulation rebar benefits, non-conductive reinforcement advantages, maintenance free construction materials, long lasting building materials, cost effective reinforcement solutions',
   openGraph: {
     title: 'GFRP Rebar Benefits | Superior to Steel Reinforcement',
     description: 'Explore the superior benefits of GFRP rebars - corrosion resistance, lightweight, high strength, and long service life compared to traditional steel.',
@@ -272,8 +272,7 @@ export default function Benefits() {
               Key Advantages of GFRP Rebars
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Advanced composite technology delivering superior performance in
-              every aspect
+              Advanced composite technology delivering superior performance in construction, marine, and infrastructure projects. Discover why GFRP rebars are the preferred TMT steel alternative for modern construction in India.
             </p>
           </div>
 
