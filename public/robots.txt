@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://vegnargfrp.com/sitemap.xml
+
 # High priority pages
 Allow: /about
 Allow: /benefits

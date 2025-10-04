@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
+    "build": "node scripts/generate-sitemap.js && next build",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write ."
