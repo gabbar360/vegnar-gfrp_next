@@ -357,7 +357,7 @@ const Index = () => {
               <div className="grid grid-cols-2 gap-4 sm:gap-6">
                 <div>
                   <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
-                    25+
+                    5+
                   </div>
                   <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Years Experience
@@ -365,7 +365,7 @@ const Index = () => {
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
-                    5000+
+                    30+
                   </div>
                   <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Projects Completed
@@ -373,7 +373,7 @@ const Index = () => {
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary-foreground">
-                    50+
+                  10+
                   </div>
                   <div className="text-sm sm:text-base text-secondary-foreground/80">
                     Countries Served
